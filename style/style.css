@@ -90,7 +90,7 @@ header nav ul li a {
 
 .atb-index-banner .atb-index-banner-contain {
   height: 70vh;
-  background-image: url(../../multimedia/Banners-Home-1024x682.png);
+  background-image: url(../multimedia/Banners-Home-1024x682.png);
   background-size: 1096px 655px;
   border-radius: 14px;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ header nav ul li a {
 
 .atb-index-clients .atb-index-clients-cards-container .atb-index-cards-1 {
   grid-area: "card1";
-  background-image: url(../../multimedia/frame-1.png);
+  background-image: url(../multimedia/frame-1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -254,7 +254,7 @@ header nav ul li a {
 
 .atb-index-clients .atb-index-clients-cards-container .atb-index-cards-2 {
   grid-area: "card2";
-  background-image: url(../../multimedia/frame-2.png);
+  background-image: url(../multimedia/frame-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -306,7 +306,7 @@ header nav ul li a {
 
 .atb-index-clients .atb-index-clients-cards-container .atb-index-cards-3 {
   grid-area: "card3";
-  background-image: url(../../multimedia/frame-3.png);
+  background-image: url(../multimedia/frame-3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -358,7 +358,7 @@ header nav ul li a {
 
 .atb-index-clients .atb-index-clients-cards-container .atb-index-cards-4 {
   grid-area: "card4";
-  background-image: url(../../multimedia/frame-4.png);
+  background-image: url(../multimedia/frame-4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -409,7 +409,7 @@ header nav ul li a {
 }
 
 .atb-index-clients .atb-index-clients-carrousel {
-  background-image: url(../../multimedia/publis-carrusel.png);
+  background-image: url(../multimedia/publis-carrusel.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
@@ -457,25 +457,25 @@ header nav ul li a {
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-1 .atb-index-cliente-1 {
   width: 355px;
   height: 365px;
-  background-image: url(../../multimedia/g-frame-1.png);
+  background-image: url(../multimedia/g-frame-1.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-1 .atb-index-cliente-2 {
   width: 355px;
   height: 355px;
-  background-image: url(../../multimedia/g-frame-2.png);
+  background-image: url(../multimedia/g-frame-2.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-1 .atb-index-cliente-3 {
   width: 355px;
   height: 405px;
-  background-image: url(../../multimedia/g-frame-3.png);
+  background-image: url(../multimedia/g-frame-3.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-1 .atb-index-cliente-4 {
   width: 355px;
   height: 443px;
-  background-image: url(../../multimedia/g-frame-4.png);
+  background-image: url(../multimedia/g-frame-4.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-2 {
@@ -497,25 +497,25 @@ header nav ul li a {
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-2 .atb-index-cliente-5 {
   width: 355px;
   height: 488px;
-  background-image: url(../../multimedia/g-frame-5.png);
+  background-image: url(../multimedia/g-frame-5.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-2 .atb-index-cliente-6 {
   width: 355px;
   height: 355px;
-  background-image: url(../../multimedia/g-frame-6.png);
+  background-image: url(../multimedia/g-frame-6.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-2 .atb-index-cliente-7 {
   width: 355px;
   height: 443px;
-  background-image: url(../../multimedia/g-frame-7.png);
+  background-image: url(../multimedia/g-frame-7.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-2 .atb-index-cliente-8 {
   width: 355px;
   height: 452px;
-  background-image: url(../../multimedia/g-frame-8.png);
+  background-image: url(../multimedia/g-frame-8.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-3 {
@@ -537,25 +537,25 @@ header nav ul li a {
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-3 .atb-index-cliente-9 {
   width: 355px;
   height: 388px;
-  background-image: url(../../multimedia/g-frame-9.png);
+  background-image: url(../multimedia/g-frame-9.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-3 .atb-index-cliente-10 {
   width: 355px;
   height: 355px;
-  background-image: url(../../multimedia/g-frame-10.png);
+  background-image: url(../multimedia/g-frame-10.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-3 .atb-index-cliente-11 {
   width: 355px;
   height: 443px;
-  background-image: url(../../multimedia/g-frame-11.png);
+  background-image: url(../multimedia/g-frame-11.png);
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain .atb-index-gallery-colums-3 .atb-index-cliente-12 {
   width: 355px;
   height: 355px;
-  background-image: url(../../multimedia/g-frame-12.png);
+  background-image: url(../multimedia/g-frame-12.png);
 }
 
 footer {
@@ -671,7 +671,7 @@ footer .atb-index-f-redes .atb-index-f-redes-icon-contain a {
 footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-icon-1 {
   width: 50px;
   height: 50px;
-  background-image: url(../../multimedia/Instagram.png);
+  background-image: url(../multimedia/Instagram.png);
   background-size: 48px 48px;
   background-repeat: no-repeat;
   background-position: center;
@@ -680,7 +680,7 @@ footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-i
 footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-icon-2 {
   width: 50px;
   height: 50px;
-  background-image: url(../../multimedia/Facebook.png);
+  background-image: url(../multimedia/Facebook.png);
   background-size: 48px 48px;
   background-repeat: no-repeat;
   background-position: center;
@@ -689,7 +689,7 @@ footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-i
 footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-icon-3 {
   width: 50px;
   height: 50px;
-  background-image: url(../../multimedia/Linkedin.png);
+  background-image: url(../multimedia/Linkedin.png);
   background-size: 48px 48px;
   background-repeat: no-repeat;
   background-position: center;
@@ -698,7 +698,7 @@ footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-i
 footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-icon-4 {
   width: 50px;
   height: 50px;
-  background-image: url(../../multimedia/YouTube.png);
+  background-image: url(../multimedia/YouTube.png);
   background-size: 48px 48px;
   background-repeat: no-repeat;
   background-position: center;
@@ -707,7 +707,7 @@ footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-i
 footer .atb-index-f-redes .atb-index-f-redes-icon-contain a .atb-index-f-redes-icon-5 {
   width: 50px;
   height: 50px;
-  background-image: url(../../multimedia/Pinterest.png);
+  background-image: url(../multimedia/Pinterest.png);
   background-size: 48px 48px;
   background-repeat: no-repeat;
   background-position: center;
