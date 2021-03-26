@@ -24,6 +24,7 @@ header {
     align-items: center;
     height: 15vh;
     padding: 0px 100px;
+    overflow: hidden;
     div{
         h1{
             width: 200px;
@@ -46,8 +47,11 @@ header {
             margin: 0px;
             padding: 0px;
             li{
-                width: 100px;
+                width: 115px;
                 height: 25px;
+                text-align: center;
+                border-radius: 30px;
+                transition: 500ms;
                 
                 a{
                     font-family: $titulos;
@@ -56,42 +60,60 @@ header {
                     font-weight: bold;
                     text-transform: uppercase;
                     color: $color-negro-oscuro;
+                    transition: 500ms;
                 }
+            }
+            a:hover{
+                color: white;
+            }
+            li:hover{
+                background-color: $color-negro-gris;
+                
             }
         }
     }
 }
 .atb-index-banner{
-    height: 70vh;
-    margin: 75px 75px 0px;
-    justify-content: center;
+    height: 75vh;
+    overflow: hidden;
+    margin: 30px 0px 30px 0px;
     .atb-index-banner-contain{
-        height: 70vh;
-        background-image: url(../multimedia/Banners-Home-1024x682.png);
-        background-size: 1096px 655px;
-        border-radius: 14px;
-        background-repeat: no-repeat;
+        height: 90%;
+        width: 100%;
+        margin-left: 75px;
         display: flex;
-        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+        .atb-index-banner-image{
+            height: 100%;
+            width: 75%;
+            background-image: url(../multimedia/Banners-Home-1024x682.png);
+            background-size: cover;
+            border-radius: 14px;
+            background-repeat: no-repeat;
+            background-position: right;
+            
+        }
         .atb-index-banner-text{
+            height: 100%;
             display: flex;
             flex-direction: column;
-            margin-right: 55px;
             justify-content: center;
+            transform: translate(-185px, 0px);
             
             h2{
-                height: 250px;
+                height: 30vh;
                 font-family: $titulos;
                 font-style: italic;
                 font-weight: 900;
-                font-size: 250px;
+                font-size: 30vh;
                 color: $color-negro-gris;
             }
             h3{
                 font-family: $titulos;
                 font-style: italic;
                 font-weight: 900;
-                font-size: 40px;
+                font-size: 4.5vh;
                 letter-spacing: 1px;
                 color: $color-negro-gris;
             }
@@ -99,46 +121,51 @@ header {
                 font-family: $textos;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 18px;
+                font-size: 2vh;
                 margin: 15px 0px;
                 color: $color-negro-gris;
             }
             .button {
-                width: 155px;
-                height: 40px;
+                width: 9vw;
+                height: 5vh;
                 background-color: $color-negro-gris;
-                border-radius: 15px;
+                border-radius: 50px;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
+                transition: 500ms;
                 a{
                     color: white;
                     font-family: $textos;
                     font-style: normal;
                     font-weight: bold;
-                    font-size: 16px;
+                    font-size: 1.80vh;
                     text-transform: uppercase;
                     text-align: center;
                 }
+            }
+            .button:hover{
+                background-color: $color-negro-oscuro;
+                font-weight: bolder;
             }
         }
     }
 }
 .atb-index-clients{
     height: 150vh;
-    margin: 30px;
+    margin: 30px 30px 0px 30px;
     .atb-index-clients-title{
         margin: 45px 125px;
         h2{
             font-family: $titulos;
             font-style: normal;
             font-weight: 900;
-            font-size: 145px;
+            font-size: 15vh;
             color: $color-negro-gris;
         }
     }
     .atb-index-clients-cards-container{
-        height: 820px;
+        height: 60%;
         padding: 0px 40px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -155,7 +182,6 @@ header {
             flex-direction: column;
             justify-content: flex-end;
             .atb-index-cards-text-container{
-                width: 300px;
                 height: 180px;
                 padding-left: 25px;
                 padding-bottom: 30px;
@@ -166,7 +192,7 @@ header {
                     font-family: $titulos;
                     font-style: normal;
                     font-weight: 900;
-                    font-size: 48px;
+                    font-size: 6vh;
                     text-transform: uppercase;
                     color: white;
                 }
@@ -190,7 +216,6 @@ header {
             flex-direction: column;
             justify-content: flex-end;
             .atb-index-cards-text-container{
-                width: 300px;
                 height: 180px;
                 padding-left: 25px;
                 padding-bottom: 30px;
@@ -203,7 +228,7 @@ header {
                     font-family: $titulos;
                     font-style: normal;
                     font-weight: 900;
-                    font-size: 48px;
+                    font-size: 6vh;
                     text-transform: uppercase;
                     color: white;
                 }
@@ -226,7 +251,6 @@ header {
             flex-direction: column;
             justify-content: flex-end;
             .atb-index-cards-text-container{
-                width: 300px;
                 height: 180px;
                 padding-left: 25px;
                 padding-bottom: 30px;
@@ -237,7 +261,7 @@ header {
                     font-family: $titulos;
                     font-style: normal;
                     font-weight: 900;
-                    font-size: 48px;
+                    font-size: 6vh;
                     text-transform: uppercase;
                     color: white;
                 }
@@ -260,7 +284,6 @@ header {
             flex-direction: column;
             justify-content: flex-end;
             .atb-index-cards-text-container{
-                width: 300px;
                 height: 180px;
                 padding-left: 25px;
                 padding-bottom: 30px;
@@ -268,12 +291,10 @@ header {
                 flex-direction: column;
                 justify-content: flex-end;
                 h3{
-                    // width: 345px;
-                    // height: 118px;
                     font-family: $titulos;
                     font-style: normal;
                     font-weight: 900;
-                    font-size: 48px;
+                    font-size: 6vh;
                     text-transform: uppercase;
                     color: white;
                 }
@@ -291,6 +312,7 @@ header {
         background-image: url(../multimedia/publis-carrusel.png);
         background-repeat: no-repeat;
         background-position: center;
+        background-size: contain;
         width: 100%;
         height: 180px;
     }
@@ -301,13 +323,13 @@ header {
             font-family: $titulos;
             font-style: normal;
             font-weight: 900;
-            font-size: 145px;
+            font-size: 15vh;
             text-align: center;
             color: $color-negro-gris; 
         }
     }
     .atb-index-client-gallery-contain{
-        height: 250vh;
+        height: 1900px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -409,7 +431,7 @@ footer {
             font-family: $textos;
             font-style: normal;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 2.5vh;
             margin-bottom: 15px;
         }
         a{
@@ -418,7 +440,8 @@ footer {
             font-style: normal;
             font-weight: normal;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 2.2vh;
+            margin-bottom: 12px;
         }
     }
     .atb-index-f-informacion{
@@ -428,7 +451,7 @@ footer {
             font-family: $textos;
             font-style: normal;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 2.5vh;
             margin-bottom: 15px;
         }
         a{
@@ -437,7 +460,8 @@ footer {
             font-style: normal;
             font-weight: normal;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 2.2vh;
+            margin-bottom: 12px;
         }
     }
     .atb-index-f-redes{
@@ -447,7 +471,7 @@ footer {
             font-family: $textos;
             font-style: normal;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 2.5vh;
             margin-bottom: 15px;
         }
         .atb-index-f-redes-icon-contain{
@@ -515,7 +539,7 @@ footer {
             font-family: Spartan;
             font-style: normal;
             font-weight: 500;
-            font-size: 18px;
+            font-size: 2.5vh;
             margin-bottom: 15px;
         }
         .atb-index-f-newsLetter-input-contain{

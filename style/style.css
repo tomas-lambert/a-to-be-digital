@@ -34,6 +34,7 @@ header {
           align-items: center;
   height: 15vh;
   padding: 0px 100px;
+  overflow: hidden;
 }
 
 header div h1 {
@@ -67,8 +68,12 @@ header nav ul {
 }
 
 header nav ul li {
-  width: 100px;
+  width: 115px;
   height: 25px;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 
 header nav ul li a {
@@ -78,31 +83,52 @@ header nav ul li a {
   font-weight: bold;
   text-transform: uppercase;
   color: #111111;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+header nav ul a:hover {
+  color: white;
+}
+
+header nav ul li:hover {
+  background-color: #303133;
 }
 
 .atb-index-banner {
-  height: 70vh;
-  margin: 75px 75px 0px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: 75vh;
+  overflow: hidden;
+  margin: 30px 0px 30px 0px;
 }
 
 .atb-index-banner .atb-index-banner-contain {
-  height: 70vh;
-  background-image: url(../multimedia/Banners-Home-1024x682.png);
-  background-size: 1096px 655px;
-  border-radius: 14px;
-  background-repeat: no-repeat;
+  height: 90%;
+  width: 100%;
+  margin-left: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-index-banner .atb-index-banner-contain .atb-index-banner-image {
+  height: 100%;
+  width: 75%;
+  background-image: url(../multimedia/Banners-Home-1024x682.png);
+  background-size: cover;
+  border-radius: 14px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .atb-index-banner .atb-index-banner-contain .atb-index-banner-text {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,18 +136,19 @@ header nav ul li a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 55px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transform: translate(-185px, 0px);
+          transform: translate(-185px, 0px);
 }
 
 .atb-index-banner .atb-index-banner-contain .atb-index-banner-text h2 {
-  height: 250px;
+  height: 30vh;
   font-family: "Work Sans", sans-serif;
   font-style: italic;
   font-weight: 900;
-  font-size: 250px;
+  font-size: 30vh;
   color: #303133;
 }
 
@@ -129,7 +156,7 @@ header nav ul li a {
   font-family: "Work Sans", sans-serif;
   font-style: italic;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 4.5vh;
   letter-spacing: 1px;
   color: #303133;
 }
@@ -138,16 +165,16 @@ header nav ul li a {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 2vh;
   margin: 15px 0px;
   color: #303133;
 }
 
 .atb-index-banner .atb-index-banner-contain .atb-index-banner-text .button {
-  width: 155px;
-  height: 40px;
+  width: 9vw;
+  height: 5vh;
   background-color: #303133;
-  border-radius: 15px;
+  border-radius: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -158,6 +185,8 @@ header nav ul li a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 
 .atb-index-banner .atb-index-banner-contain .atb-index-banner-text .button a {
@@ -165,14 +194,19 @@ header nav ul li a {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.80vh;
   text-transform: uppercase;
   text-align: center;
 }
 
+.atb-index-banner .atb-index-banner-contain .atb-index-banner-text .button:hover {
+  background-color: #111111;
+  font-weight: bolder;
+}
+
 .atb-index-clients {
   height: 150vh;
-  margin: 30px;
+  margin: 30px 30px 0px 30px;
 }
 
 .atb-index-clients .atb-index-clients-title {
@@ -183,12 +217,12 @@ header nav ul li a {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 145px;
+  font-size: 15vh;
   color: #303133;
 }
 
 .atb-index-clients .atb-index-clients-cards-container {
-  height: 820px;
+  height: 60%;
   padding: 0px 40px;
   display: -ms-grid;
   display: grid;
@@ -219,7 +253,6 @@ header nav ul li a {
 }
 
 .atb-index-clients .atb-index-clients-cards-container .atb-index-cards-1 .atb-index-cards-text-container {
-  width: 300px;
   height: 180px;
   padding-left: 25px;
   padding-bottom: 30px;
@@ -239,7 +272,7 @@ header nav ul li a {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 6vh;
   text-transform: uppercase;
   color: white;
 }
@@ -271,7 +304,6 @@ header nav ul li a {
 }
 
 .atb-index-clients .atb-index-clients-cards-container .atb-index-cards-2 .atb-index-cards-text-container {
-  width: 300px;
   height: 180px;
   padding-left: 25px;
   padding-bottom: 30px;
@@ -291,7 +323,7 @@ header nav ul li a {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 6vh;
   text-transform: uppercase;
   color: white;
 }
@@ -323,7 +355,6 @@ header nav ul li a {
 }
 
 .atb-index-clients .atb-index-clients-cards-container .atb-index-cards-3 .atb-index-cards-text-container {
-  width: 300px;
   height: 180px;
   padding-left: 25px;
   padding-bottom: 30px;
@@ -343,7 +374,7 @@ header nav ul li a {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 6vh;
   text-transform: uppercase;
   color: white;
 }
@@ -375,7 +406,6 @@ header nav ul li a {
 }
 
 .atb-index-clients .atb-index-clients-cards-container .atb-index-cards-4 .atb-index-cards-text-container {
-  width: 300px;
   height: 180px;
   padding-left: 25px;
   padding-bottom: 30px;
@@ -395,7 +425,7 @@ header nav ul li a {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 6vh;
   text-transform: uppercase;
   color: white;
 }
@@ -412,6 +442,7 @@ header nav ul li a {
   background-image: url(../multimedia/publis-carrusel.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   width: 100%;
   height: 180px;
 }
@@ -420,13 +451,13 @@ header nav ul li a {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 145px;
+  font-size: 15vh;
   text-align: center;
   color: #303133;
 }
 
 .atb-index-clients-gallery .atb-index-client-gallery-contain {
-  height: 250vh;
+  height: 1900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -588,7 +619,7 @@ footer .atb-index-f-contacto h3 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 2.5vh;
   margin-bottom: 15px;
 }
 
@@ -598,7 +629,8 @@ footer .atb-index-f-contacto a {
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 2.2vh;
+  margin-bottom: 12px;
 }
 
 footer .atb-index-f-informacion {
@@ -615,7 +647,7 @@ footer .atb-index-f-informacion h3 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 2.5vh;
   margin-bottom: 15px;
 }
 
@@ -625,7 +657,8 @@ footer .atb-index-f-informacion a {
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 2.2vh;
+  margin-bottom: 12px;
 }
 
 footer .atb-index-f-redes {
@@ -642,7 +675,7 @@ footer .atb-index-f-redes h3 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 2.5vh;
   margin-bottom: 15px;
 }
 
@@ -717,7 +750,7 @@ footer .atb-index-f-newsLetter h3 {
   font-family: Spartan;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 2.5vh;
   margin-bottom: 15px;
 }
 
