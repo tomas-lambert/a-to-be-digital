@@ -785,4 +785,985 @@ footer .atb-index-f-newsLetter .atb-index-f-newsLetter-input-contain button {
   background: #7E7E7E;
   border-radius: 0px 10px 10px 0px;
 }
+
+.atb-mk-banner {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.atb-mk-banner .atb-mk-banner-container {
+  height: 100%;
+  width: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-img-container {
+  height: 95%;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../multimedia/macbook-pro-flying-mockup.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 100;
+  -webkit-transform: translate(23%, 0%);
+          transform: translate(23%, 0%);
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-fondo {
+  background-color: #D7D7D7;
+  z-index: 1;
+  height: 78%;
+  width: 180%;
+  border-radius: 15px;
+  -webkit-transform: translate(-38%, -3%);
+          transform: translate(-38%, -3%);
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-text {
+  height: 70%;
+  width: 25%;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate(-163%, 0px);
+          transform: translate(-163%, 0px);
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-text h2 {
+  height: 18vh;
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 23vh;
+  color: #303133;
+  -webkit-transform: translate(0px, -51%);
+          transform: translate(0px, -51%);
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-text h3 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 4.5vh;
+  letter-spacing: 1px;
+  color: #303133;
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-text p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  margin: 15px 0px;
+  color: #303133;
+  -webkit-transform: translate(0px, -45%);
+          transform: translate(0px, -45%);
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-text .button {
+  width: 11vw;
+  height: 4vh;
+  background-color: #303133;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-text .button a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.50vh;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.atb-mk-banner .atb-mk-banner-container .atb-mk-banner-text .button:hover {
+  background-color: #111111;
+  font-weight: bolder;
+}
+
+.atb-mk-mediaKit {
+  margin-top: 2%;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container {
+  height: 155vh;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-title-container {
+  color: #303133;
+  margin-left: 9%;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-title-container h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 13vh;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-title-container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-top: 1%;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-imgNtext-container {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-imgNtext-container .atb-mk-planSocialMedia-text-container {
+  height: 100%;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-imgNtext-container .atb-mk-planSocialMedia-text-container .atb-mk-planSocialMedia-text {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-imgNtext-container .atb-mk-planSocialMedia-text-container .atb-mk-planSocialMedia-text .atb-mk-planSocialMedia-text-number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 13vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-imgNtext-container .atb-mk-planSocialMedia-text-container .atb-mk-planSocialMedia-text .atb-mk-planSocialMedia-text-p {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #303133;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-planSocialMedia-container .atb-mk-planSocialMedia-imgNtext-container .atb-mk-planSocialMedia-img-container {
+  height: 75%;
+  width: 35%;
+  background-image: url(../multimedia/trendy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-transform: translate(-55px, -28%);
+          transform: translate(-55px, -28%);
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container {
+  height: 110vh;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-title-container {
+  color: #303133;
+  margin-right: 9%;
+  margin-left: 43%;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-title-container h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 13vh;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-title-container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-top: 1%;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-imgNtext-container {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-imgNtext-container .atb-mk-socialADS-text-container {
+  height: 100%;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-imgNtext-container .atb-mk-socialADS-text-container .atb-mk-socialADS-text {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-imgNtext-container .atb-mk-socialADS-text-container .atb-mk-socialADS-text .atb-mk-socialADS-text-number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 13vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-imgNtext-container .atb-mk-socialADS-text-container .atb-mk-socialADS-text .atb-mk-socialADS-text-p {
+  height: 30%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #303133;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-socialADS-container .atb-mk-socialADS-imgNtext-container .atb-mk-socialADS-img-container {
+  height: 75%;
+  width: 35%;
+  background-image: url(../multimedia/socialADS.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container .atb-mk-seo-text-container {
+  height: 60%;
+  width: 50%;
+  margin-left: 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container .atb-mk-seo-text-container .atb-mk-seo-title-container {
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container .atb-mk-seo-text-container .atb-mk-seo-title-container h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 13vh;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container .atb-mk-seo-text-container .atb-mk-seo-title-container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-top: 1%;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container .atb-mk-seo-text-container .atb-mk-seo-nomberNp-container {
+  height: 30%;
+  width: 93%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container .atb-mk-seo-text-container .atb-mk-seo-nomberNp-container .atb-mk-seo-text-number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 13vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container .atb-mk-seo-text-container .atb-mk-seo-nomberNp-container .atb-mk-seo-text-p {
+  height: 20%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #303133;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-seo-container .atb-mk-seo-img-container {
+  height: 100%;
+  width: 40%;
+  background-image: url(../multimedia/todays-trends.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container .atb-mk-growthLinkedin-text-container {
+  height: 100%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container .atb-mk-growthLinkedin-text-container .atb-mk-growthLinkedin-title-container {
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container .atb-mk-growthLinkedin-text-container .atb-mk-growthLinkedin-title-container h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 13vh;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container .atb-mk-growthLinkedin-text-container .atb-mk-growthLinkedin-title-container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-top: 1%;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container .atb-mk-growthLinkedin-text-container .atb-mk-growthLinkedin-pList-container {
+  height: 60%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container .atb-mk-growthLinkedin-text-container .atb-mk-growthLinkedin-pList-container p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container .atb-mk-growthLinkedin-text-container .atb-mk-growthLinkedin-pList-container strong {
+  font-style: italic;
+  font-weight: 900;
+}
+
+.atb-mk-mediaKit .atb-mk-growthLinkedin-container .atb-mk-growthLinkedin-img-container {
+  height: 100%;
+  width: 40%;
+  -webkit-transform: translate(0px, 7%);
+          transform: translate(0px, 7%);
+  background-image: url(../multimedia/pexels-anna-shvets.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.atb-mk-mediaKit .atb-mk-emailMarketing-container {
+  height: 80vh;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.atb-mk-mediaKit .atb-mk-emailMarketing-container .atb-mk-emailMarketing-text-container {
+  height: 60%;
+  width: 45%;
+  margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.atb-mk-mediaKit .atb-mk-emailMarketing-container .atb-mk-emailMarketing-text-container .atb-mk-emailMarketing-title-container {
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-emailMarketing-container .atb-mk-emailMarketing-text-container .atb-mk-emailMarketing-title-container h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 13vh;
+}
+
+.atb-mk-mediaKit .atb-mk-emailMarketing-container .atb-mk-emailMarketing-text-container .atb-mk-emailMarketing-title-container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-top: 1%;
+}
+
+.atb-mk-mediaKit .atb-mk-emailMarketing-container .atb-mk-emailMarketing-text-container .atb-mk-emailMarketing-pList-container p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-emailMarketing-container .atb-mk-emailMarketing-img-container {
+  height: 100%;
+  width: 40%;
+  background-image: url(../multimedia/emailMarketing-iPhone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container {
+  height: 110vh;
+  margin-top: 4%;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-title-container {
+  color: #303133;
+  margin-right: 9%;
+  margin-left: 43%;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-title-container h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 13vh;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-title-container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-top: 1%;
+  text-transform: uppercase;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-imgNtext-container {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-imgNtext-container .atb-mk-branding-text-container {
+  height: 100%;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-imgNtext-container .atb-mk-branding-text-container .atb-mk-branding-text {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-imgNtext-container .atb-mk-branding-text-container .atb-mk-branding-text .atb-mk-branding-text-number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 13vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-imgNtext-container .atb-mk-branding-text-container .atb-mk-branding-text .atb-mk-branding-text-p {
+  height: 30%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #303133;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-branding-container .atb-mk-branding-imgNtext-container .atb-mk-branding-img-container {
+  height: 100%;
+  width: 35%;
+  -webkit-transform: translate(20%, -15%);
+          transform: translate(20%, -15%);
+  background-image: url(../../multimedia/braning-iPhone-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container {
+  height: 100vh;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-title-container {
+  color: #303133;
+  margin-left: 9%;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-title-container h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 13vh;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-title-container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-top: 1%;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-imgNtext-container {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-imgNtext-container .atb-mk-fotografia-text-container {
+  height: 100%;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-imgNtext-container .atb-mk-fotografia-text-container .atb-mk-fotografia-text {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-imgNtext-container .atb-mk-fotografia-text-container .atb-mk-fotografia-text .atb-mk-fotografia-text-number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 13vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-imgNtext-container .atb-mk-fotografia-text-container .atb-mk-fotografia-text .atb-mk-fotografia-text-p {
+  height: 60%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #303133;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  color: #303133;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-imgNtext-container .atb-mk-fotografia-text-container .atb-mk-fotografia-text .atb-mk-fotografia-text-p p strong {
+  font-weight: bold;
+}
+
+.atb-mk-mediaKit .atb-mk-fotografia-container .atb-mk-fotografia-imgNtext-container .atb-mk-fotografia-img-container {
+  height: 100%;
+  width: 35%;
+  background-image: url(../multimedia/mk-fotografia-iPhone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-transform: translate(-20%, -10%);
+          transform: translate(-20%, -10%);
+}
+
+.contacto-mainSection {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contacto-mainSection .contacto-text-container {
+  height: 80%;
+  width: 40%;
+  color: #303133;
+}
+
+.contacto-mainSection .contacto-text-container h2 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 13vh;
+}
+
+.contacto-mainSection .contacto-text-container h3 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 4vh;
+  -webkit-transform: translate(0px, -30%);
+          transform: translate(0px, -30%);
+}
+
+.contacto-mainSection .contacto-text-container p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.85vh;
+  margin-top: 1%;
+}
+
+.contacto-mainSection .contacto-form-container {
+  height: 75%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-name {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-name label {
+  height: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2vh;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-name input {
+  height: 80%;
+  width: 100%;
+  background-color: rgba(134, 134, 134, 0.64);
+  border: 1px solid #ACACAC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 9px;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-email {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-email label {
+  height: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2vh;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-email input {
+  height: 80%;
+  width: 100%;
+  background-color: rgba(134, 134, 134, 0.64);
+  border: 1px solid #ACACAC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 9px;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-textarea {
+  height: 40%;
+  width: 100%;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-textarea label {
+  height: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2vh;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-textarea textarea {
+  height: 80%;
+  width: 100%;
+  margin-top: 2%;
+  background-color: rgba(134, 134, 134, 0.64);
+  border: 1px solid #ACACAC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 9px;
+}
+
+.contacto-mainSection .contacto-form-container .contacto-form-button {
+  height: 10%;
+  width: 100%;
+  width: 9vw;
+  height: 5vh;
+  background-color: #303133;
+  border-radius: 50px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
