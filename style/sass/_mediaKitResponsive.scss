@@ -1,0 +1,555 @@
+@media only screen and (min-width: 320px) and (max-width: 1199px) {
+    .atb-mk-banner{
+        height: 100vh;
+        overflow-x: hidden;
+        .atb-mk-banner-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        .atb-mk-banner-img-container{
+            height: 40%;
+            width: 100%;
+            margin-bottom: 3%;
+            overflow: hidden;
+            background-image: url(../multimedia/macbook-pro-flying-mockup.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: 0;
+            transform: translate(0%, 0%);
+        }
+        .atb-mk-banner-fondo{
+            display: none;
+        }
+        .atb-mk-banner-text{
+            height: 55%;
+            width: 90% ;
+            z-index: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                transform: translate(0%, 0px);
+                
+                h2{
+                    height: 14vh;
+                    font-family: $titulos;
+                    font-style: italic;
+                    font-weight: 900;
+                    font-size: 600%;
+                    color: $color-negro-gris;
+                    transform: translate(0px, 0%);
+                }
+                h3{
+                    display: none;
+                }
+                p{
+                    width: 90%;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 3vh;
+                    margin: 15px 0px;
+                    color: $color-negro-gris;
+                    transform: translate(0px, 0%);
+                }
+                .button {
+                    width: 60vw;
+                    height: 5vh;
+                    background-color: $color-negro-gris;
+                    border-radius: 50px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    transition: 500ms;
+                    a{
+                        color: white;
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: bolder;
+                        font-size: 2vh;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+                }
+                .button:hover{
+                    background-color: $color-negro-oscuro;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+    .atb-mk-mediaKit{
+        margin-top: 2%;
+        display: none;
+        .atb-mk-planSocialMedia-container{
+            height: 155vh;
+            .atb-mk-planSocialMedia-title-container{
+                color: $color-negro-gris;
+                margin-left: 9%;
+                h2{
+                    font-family: $titulos;
+                    font-style: italic;
+                    font-weight: 900;
+                    font-size: 13vh;
+                }
+                h3{
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 2vh;
+                    margin-top: 1%;
+                }
+    
+            }
+            .atb-mk-planSocialMedia-imgNtext-container{
+                height: 70%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .atb-mk-planSocialMedia-text-container{
+                    height: 100%;
+                    width: 65%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    .atb-mk-planSocialMedia-text{
+                        width: 75%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        .atb-mk-planSocialMedia-text-number{
+                            font-family: $textos;
+                            font-style: normal;
+                            font-weight: bolder;
+                            font-size: 13vh;
+                            color: $color-negro-gris;
+                        }
+                        .atb-mk-planSocialMedia-text-p{
+                            height: 60%;
+                            display: flex;
+                            align-items: center;
+                            border-top: 2px solid $color-negro-gris;
+                            font-family: $textos;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 2vh;
+                            color: $color-negro-gris
+                        }
+                    }
+                }
+                .atb-mk-planSocialMedia-img-container{
+                    height: 75%;
+                    width: 35%;
+                    background-image: url(../multimedia/trendy.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    transform: translate(-55px, -28%);
+                }
+            }
+        }
+        .atb-mk-socialADS-container{
+            height: 110vh;
+            .atb-mk-socialADS-title-container{
+                color: $color-negro-gris;
+                margin-right: 9%;
+                margin-left: 43%;
+                h2{
+                    font-family: $titulos;
+                    font-style: italic;
+                    font-weight: 900;
+                    font-size: 13vh;
+                    
+                }
+                h3{
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 2vh;
+                    margin-top: 1%;
+                }
+    
+            }
+            .atb-mk-socialADS-imgNtext-container{
+                height: 70%;
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                .atb-mk-socialADS-text-container{
+                    height: 100%;
+                    width: 65%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    .atb-mk-socialADS-text{
+                        width: 75%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        .atb-mk-socialADS-text-number{
+                            font-family: $textos;
+                            font-style: normal;
+                            font-weight: bolder;
+                            font-size: 13vh;
+                            color: $color-negro-gris;
+                        }
+                        .atb-mk-socialADS-text-p{
+                            height: 30%;
+                            width: 75%;
+                            display: flex;
+                            align-items: center;
+                            border-top: 2px solid $color-negro-gris;
+                            font-family: $textos;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 2vh;
+                            color: $color-negro-gris
+                        }
+                    }
+                }
+                .atb-mk-socialADS-img-container{
+                    height: 75%;
+                    width: 35%;
+                    background-image: url(../multimedia/socialADS.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+    
+                }
+            }
+        }
+        .atb-mk-seo-container{
+            height: 80vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .atb-mk-seo-text-container{
+                height: 60%;
+                width: 50%;
+                margin-left: 9%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .atb-mk-seo-title-container{
+                    color: $color-negro-gris;
+                    h2{
+                        font-family: $titulos;
+                        font-style: italic;
+                        font-weight: 900;
+                        font-size: 13vh;
+                        
+                    }
+                    h3{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 2vh;
+                        margin-top: 1%;
+                    }
+                }
+                .atb-mk-seo-nomberNp-container{
+                    height: 30%;
+                    width: 93%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    .atb-mk-seo-text-number{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: bolder;
+                        font-size: 13vh;
+                        color: $color-negro-gris;
+                    }
+                    .atb-mk-seo-text-p{
+                        height: 20%;
+                        width: 75%;
+                        display: flex;
+                        align-items: center;
+                        border-top: 2px solid $color-negro-gris;
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 2vh;
+                        color: $color-negro-gris
+                    }
+                }
+            }
+            .atb-mk-seo-img-container{
+                height: 100%;
+                width: 40%;
+                background-image: url(../multimedia/todays-trends.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
+            }
+        }
+        .atb-mk-growthLinkedin-container{
+            height: 80vh;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            .atb-mk-growthLinkedin-text-container{
+                height: 100%;
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .atb-mk-growthLinkedin-title-container{
+                    color: $color-negro-gris;
+                    h2{
+                        font-family: $titulos;
+                        font-style: italic;
+                        font-weight: 900;
+                        font-size: 13vh;
+                        
+                    }
+                    h3{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 2vh;
+                        margin-top: 1%;
+                    }
+                }
+                .atb-mk-growthLinkedin-pList-container{
+                    height: 60%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 2vh;
+                        color: $color-negro-gris
+                    }
+                    strong{
+                        font-style: italic;
+                        font-weight: 900;
+                    }
+                }
+            }
+            .atb-mk-growthLinkedin-img-container{
+                height: 100%;
+                width: 40%;
+                transform: translate(0px, 7%);
+                background-image: url(../multimedia/pexels-anna-shvets.png);
+                background-repeat: no-repeat;
+                background-position: left;
+                background-size: contain;
+            }
+        }
+        .atb-mk-emailMarketing-container{
+            height: 80vh;
+            margin-top: 5%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .atb-mk-emailMarketing-text-container{
+                height: 60%;
+                width: 45%;
+                margin-left: 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .atb-mk-emailMarketing-title-container{
+                    color: $color-negro-gris;
+                    h2{
+                        font-family: $titulos;
+                        font-style: italic;
+                        font-weight: 900;
+                        font-size: 13vh;
+                        
+                    }
+                    h3{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 2vh;
+                        margin-top: 1%;
+                    }
+                }
+                .atb-mk-emailMarketing-pList-container{
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 2vh;
+                        color: $color-negro-gris
+                    }
+                }
+            }
+            .atb-mk-emailMarketing-img-container{
+                height: 100%;
+                width: 40%;
+                background-image: url(../multimedia/emailMarketing-iPhone.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+        .atb-mk-branding-container{
+            height: 110vh;
+            margin-top: 4%;
+            .atb-mk-branding-title-container{
+                color: $color-negro-gris;
+                margin-right: 9%;
+                margin-left: 43%;
+                h2{
+                    font-family: $titulos;
+                    font-style: italic;
+                    font-weight: 900;
+                    font-size: 13vh;
+                    
+                }
+                h3{
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 2vh;
+                    margin-top: 1%;
+                    text-transform: uppercase;
+                }
+    
+            }
+            .atb-mk-branding-imgNtext-container{
+                height: 70%;
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                .atb-mk-branding-text-container{
+                    height: 100%;
+                    width: 65%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    .atb-mk-branding-text{
+                        width: 75%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        .atb-mk-branding-text-number{
+                            font-family: $textos;
+                            font-style: normal;
+                            font-weight: bolder;
+                            font-size: 13vh;
+                            color: $color-negro-gris;
+                        }
+                        .atb-mk-branding-text-p{
+                            height: 30%;
+                            width: 75%;
+                            display: flex;
+                            align-items: center;
+                            border-top: 2px solid $color-negro-gris;
+                            font-family: $textos;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 2vh;
+                            color: $color-negro-gris
+                        }
+                    }
+                }
+                .atb-mk-branding-img-container{
+                    height: 100%;
+                    width: 35%;
+                    transform: translate(20%, -15%);
+                    background-image: url(../multimedia/braning-iPhone-img.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+    
+                }
+            }
+        }
+        .atb-mk-fotografia-container{
+            height: 100vh;
+            .atb-mk-fotografia-title-container{
+                color: $color-negro-gris;
+                margin-left: 9%;
+                h2{
+                    font-family: $titulos;
+                    font-style: italic;
+                    font-weight: 900;
+                    font-size: 13vh;
+                }
+                h3{
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 2vh;
+                    margin-top: 1%;
+                }
+    
+            }
+            .atb-mk-fotografia-imgNtext-container{
+                height: 70%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .atb-mk-fotografia-text-container{
+                    height: 100%;
+                    width: 65%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    .atb-mk-fotografia-text{
+                        width: 75%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        .atb-mk-fotografia-text-number{
+                            font-family: $textos;
+                            font-style: normal;
+                            font-weight: bolder;
+                            font-size: 13vh;
+                            color: $color-negro-gris;
+                        }
+                        .atb-mk-fotografia-text-p{
+                            height: 60%;
+                            width: 75%;
+                            display: flex;
+                            align-items: center;
+                            border-top: 2px solid $color-negro-gris;
+                            font-family: $textos;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 2vh;
+                            color: $color-negro-gris;
+                            p{
+                                strong{
+                                    font-weight: bold;
+                                
+                                }
+                            }
+                        }
+                    }
+                }
+                .atb-mk-fotografia-img-container{
+                    height: 100%;
+                    width: 35%;
+                    background-image: url(../multimedia/mk-fotografia-iPhone.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    transform: translate(-20%, -10%);
+                }
+            }
+        }
+    }
+}

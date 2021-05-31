@@ -1,0 +1,1420 @@
+@media only screen and (min-width: 320px) and (max-width: 1199px){
+    .portfolio-csb{
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .portfolio-csb-text-container{
+            height: 60%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 0%;
+            h2{
+                height: 15%;
+                font-family: $titulos;
+                font-style: italic;
+                font-weight: 900;
+                font-size: 7vh;
+                color: $color-negro-gris;
+            }
+            h3{
+                height: 4%;
+                font-family: $textos;
+                font-size: 2.5vh;
+                font-weight: 500;
+            }
+            p{
+                height: 35%;
+                font-family: $textos;
+                font-size: 2.4vh;
+                font-weight: 100;
+            }
+            .portfolio-csb-btnSection-container{
+                height: 30%;
+                display: flex;
+                flex-direction: column;
+                .portfolio-csb-btnSection-columna1{
+                    height: 60%;
+                    width: 100%;
+                    .portfolio-csb-btnSection-btn1{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn1-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn1-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-csb-btnSection-btn2{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn2-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn2-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-csb-btnSection-btn3{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn3-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn3-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-csb-btnSection-btn4{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn4-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn4-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-csb-btnSection-btn5{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn5-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn5-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+                .portfolio-csb-btnSection-columna2{
+                    height: 40%;
+                    width: 100%;
+                    .portfolio-csb-btnSection-btn6{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn6-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn6-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-csb-btnSection-btn7{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn7-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn7-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-csb-btnSection-btn8{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn8-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn8-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-csb-btnSection-btn9{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-csb-btnSection-btn9-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-csb-btnSection-btn9-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .portfolio-csb-img-container{
+            height: 20%;
+            width: 100%;
+            background-image: url(../multimedia/portfolio-csb.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: contain;
+    
+        }
+    }
+    .portfolio-calello{
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .portfolio-calello-text-container{
+            height: 60%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 0%;
+            margin-right: 0%;
+            h2{
+                height: 15%;
+                font-family: $titulos;
+                font-style: italic;
+                font-weight: 900;
+                font-size: 7vh;
+                color: $color-negro-gris;
+            }
+            h3{
+                height: 7%;
+                font-family: $textos;
+                font-size: 2.4vh;
+                font-weight: 500;
+            }
+            p{
+                height: 25%;
+                font-family: $textos;
+                font-size: 2.5vh;
+                font-weight: 100;
+            }
+            .portfolio-calello-btnSection-container{
+                height: 30%;
+                display: flex;
+                flex-direction: column;
+                .portfolio-calello-btnSection-columna1{
+                    height: 60%;
+                    width: 100%;
+                    .portfolio-calello-btnSection-btn1{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn1-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn1-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-calello-btnSection-btn2{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn2-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn2-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-calello-btnSection-btn3{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn3-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn3-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-calello-btnSection-btn4{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn4-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn4-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-calello-btnSection-btn5{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn5-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn5-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+                .portfolio-calello-btnSection-columna2{
+                    height: 40%;
+                    width: 100%;
+                    .portfolio-calello-btnSection-btn6{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn6-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn6-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-calello-btnSection-btn7{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn7-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn7-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-calello-btnSection-btn8{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn8-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn8-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-calello-btnSection-btn9{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-calello-btnSection-btn9-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-calello-btnSection-btn9-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .portfolio-calello-img-container{
+            height: 30%;
+            width: 90%;
+            background-image: url(../multimedia/braning-iPhone-img.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: translate(0%, 0%);
+    
+        }
+    }
+    .portfolio-trendy{
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .portfolio-trendy-text-container{
+            height: 60%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 0%;
+            margin-right: 0%;
+            h2{
+                height: 10%;
+                font-family: $titulos;
+                font-style: italic;
+                font-weight: 900;
+                font-size: 7vh;
+                color: $color-negro-gris;
+            }
+            h3{
+                height: 5%;
+                font-family: $textos;
+                font-size: 2.4vh;
+                font-weight: 500;
+            }
+            p{
+                height: 25%;
+                font-family: $textos;
+                font-size: 2.5vh;
+                font-weight: 100;
+            }
+            .portfolio-trendy-btnSection-container{
+                height: 30%;
+                display: flex;
+                flex-direction: column;
+                .portfolio-trendy-btnSection-columna1{
+                    height: 60%;
+                    width: 100%;
+                    .portfolio-trendy-btnSection-btn1{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn1-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn1-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-trendy-btnSection-btn2{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn2-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn2-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-trendy-btnSection-btn3{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn3-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn3-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-trendy-btnSection-btn4{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn4-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn4-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-trendy-btnSection-btn5{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn5-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn5-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+                .portfolio-trendy-btnSection-columna2{
+                    height: 40%;
+                    width: 100%;
+                    .portfolio-trendy-btnSection-btn6{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn6-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn6-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-trendy-btnSection-btn7{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn7-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn7-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-trendy-btnSection-btn8{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn8-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn8-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-trendy-btnSection-btn9{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-trendy-btnSection-btn9-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-trendy-btnSection-btn9-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .portfolio-trendy-img-container{
+            height: 30%;
+            width: 90%;
+            background-image: url(../multimedia/portfolio-trendy.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: translate(0%, 0%);
+    
+        }
+    }
+    .portfolio-eymc{
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .portfolio-eymc-text-container{
+            height: 60%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 0%;
+            margin-right: 0%;
+            h2{
+                height: 15%;
+                font-family: $titulos;
+                font-style: italic;
+                font-weight: 900;
+                font-size: 6.4vh;
+                color: $color-negro-gris;
+            }
+            h3{
+                height: 5%;
+                font-family: $textos;
+                font-size: 2.4vh;
+                font-weight: 500;
+            }
+            p{
+                height: 35%;
+                font-family: $textos;
+                font-size: 2.5vh;
+                font-weight: 100;
+            }
+            .portfolio-eymc-btnSection-container{
+                height: 30%;
+                display: flex;
+                flex-direction: column;
+                .portfolio-eymc-btnSection-columna1{
+                    height: 60%;
+                    width: 100%;
+                    .portfolio-eymc-btnSection-btn1{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn1-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn1-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-eymc-btnSection-btn2{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn2-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn2-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-eymc-btnSection-btn3{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn3-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn3-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-eymc-btnSection-btn4{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn4-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn4-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-eymc-btnSection-btn5{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn5-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn5-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+                .portfolio-eymc-btnSection-columna2{
+                    height: 40%;
+                    width: 100%;
+                    .portfolio-eymc-btnSection-btn6{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn6-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn6-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-eymc-btnSection-btn7{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn7-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn7-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-eymc-btnSection-btn8{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn8-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn8-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-eymc-btnSection-btn9{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-eymc-btnSection-btn9-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-eymc-btnSection-btn9-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .portfolio-eymc-img-container{
+            height: 22%;
+            width: 90%;
+            background-image: url(../multimedia/portfolio-eymc.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: translate(0%, 0%);
+    
+        }
+    }
+    .portfolio-complot{
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .portfolio-complot-text-container{
+            height: 60%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 0%;
+            margin-right: 0%;
+            h2{
+                height: 15%;
+                font-family: $titulos;
+                font-style: italic;
+                font-weight: 900;
+                font-size: 7vh;
+                color: $color-negro-gris;
+            }
+            h3{
+                height: 7%;
+                font-family: $textos;
+                font-size: 2.4vh;
+                font-weight: 500;
+            }
+            p{
+                height: 25%;
+                font-family: $textos;
+                font-size: 2.5vh;
+                font-weight: 100;
+            }
+            .portfolio-complot-btnSection-container{
+                height: 30%;
+                display: flex;
+                flex-direction: column;
+                .portfolio-complot-btnSection-columna1{
+                    height: 60%;
+                    width: 100%;
+                    .portfolio-complot-btnSection-btn1{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn1-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn1-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-complot-btnSection-btn2{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn2-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn2-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-complot-btnSection-btn3{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn3-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn3-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-complot-btnSection-btn4{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn4-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn4-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-complot-btnSection-btn5{
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn5-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn5-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+                .portfolio-complot-btnSection-columna2{
+                    height: 40%;
+                    width: 100%;
+                    .portfolio-complot-btnSection-btn6{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn6-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn6-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-complot-btnSection-btn7{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn7-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn7-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-complot-btnSection-btn8{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn8-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn8-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                    .portfolio-complot-btnSection-btn9{
+                        height: 23%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 1%;
+                        .portfolio-complot-btnSection-btn9-img{
+                            height: 100%;
+                            width: 10%;
+                            background-image: url(../multimedia/portfolio-btn-off.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+                        .portfolio-complot-btnSection-btn9-text{
+                            height: 100%;
+                            width: 75%;
+                            margin-left: 5%;
+                            h4{
+                                font-family: $textos;
+                                font-weight: 500;
+                                font-size: 2.3vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .portfolio-complot-img-container{
+            height: 30%;
+            width: 90%;
+            background-image: url(../multimedia/mk-fotografia-iPhone.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: translate(0%, 0%);
+    
+        }
+    }
+}

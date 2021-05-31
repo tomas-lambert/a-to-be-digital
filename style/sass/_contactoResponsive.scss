@@ -1,0 +1,113 @@
+@media only screen and (min-width: 320px) and (max-width: 1199px){
+    .contacto-mainSection{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .contacto-text-container{
+            height: 30%;
+            width: 80%;
+            color: $color-negro-gris;
+            h2{
+                font-family: $titulos;
+                font-style: italic;
+                font-weight: 900;
+                font-size: 6vh;
+                margin-bottom: 4%;
+            }
+            h3{
+                font-family: $titulos;
+                font-style: italic;
+                font-weight: 800;
+                font-size: 2.7vh;
+                transform: translate(0px, 0%);
+                margin-bottom: 4%;
+            }
+            p{
+                font-family: $textos;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.85vh;
+                margin-bottom: 2%;
+            }
+        }
+        .contacto-form-container{
+            height: 60%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .contacto-form-name{
+                height: 10%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                label{
+                    height: 60%;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
+                }
+                input{
+                    height: 80%;
+                    width: 100%;
+                    background-color: $color-verdeagua;
+                    border: 1px solid #ACACAC;
+                    box-sizing: border-box;
+                    border-radius: 9px;
+                }
+            }
+            .contacto-form-email{
+                height: 10%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                label{
+                    height: 60%;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
+                }
+                input{
+                    height: 80%;
+                    width: 100%;
+                    background-color: $color-verdeagua;
+                    border: 1px solid #ACACAC;
+                    box-sizing: border-box;
+                    border-radius: 9px;
+                }
+            }
+            .contacto-form-textarea{
+                height: 40%;
+                width: 100%;
+                label{
+                    height: 60%;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
+                }
+                textarea{
+                    height: 80%;
+                    width: 100%;
+                    margin-top: 2%;
+                    background-color: $color-verdeagua;
+                    border: 1px solid #ACACAC;
+                    box-sizing: border-box;
+                    border-radius: 9px;
+                }
+            }
+            .contacto-form-button{
+                width: 100%;
+                height: 5vh;
+                background-color: $color-negro-gris;
+                border-radius: 50px;
+                transition: 500ms;
+                color: white;
+            }
+        }
+    }
+}

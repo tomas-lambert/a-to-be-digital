@@ -1,0 +1,695 @@
+// Index Style
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+// Nav Bar
+
+@media only screen and (min-width: 320px) and (max-width: 1199px){
+    
+    header {
+        height: 10vh;
+        background-color: $color-negro-oscuro;
+        div{
+            display: none;
+            h1{
+               
+            }
+        }
+        nav{
+            display: none;
+            ul{
+                
+                li{
+                    
+                    
+                    a{
+                        
+                    }
+                }
+                a:hover{
+                    
+                }
+                li:hover{
+                    
+                    
+                }
+            }
+        }
+    }
+    .atb-index-banner{
+        height: 90vh;
+        overflow:hidden;
+        margin: 0px;
+        .atb-index-banner-contain{
+            height: 100%;
+            width: 100%;
+            margin-left: 0px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            align-items: center;
+            .atb-index-banner-image{
+                height: 40%;
+                width: 90%;
+                background-image: url(../multimedia/Banners-Home-1024x682.png);
+                background-size: cover;
+                border-radius: 5px;
+                background-repeat: no-repeat;
+                background-position: left;
+            }
+            .atb-index-banner-text{
+                height: 38%;
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                transform: translate(0px, 0px);
+                
+                h2{
+                    height: 15vh;
+                    font-family: $titulos;
+                    font-style: italic;
+                    font-weight: 900;
+                    font-size: 12vh;
+                    color: $color-negro-gris;
+                    display: flex;
+                    div{
+                        transform: translate(0px, -15%);
+                    }
+                    
+                }
+                h3{
+                    font-family: $titulos;
+                    font-style: italic;
+                    font-weight: 900;
+                    font-size: 2.2vh;
+                    letter-spacing: 1px;
+                    color: $color-negro-gris;
+                    
+                }
+                p{
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 2.6vh;
+                    margin: 15px 0px;
+                    color: $color-negro-gris;  
+                }
+                .button {
+                    display: none;
+                    a{
+                        
+                    }
+                }
+            }
+        }
+    }
+    .atb-index-clients{
+        height: 100vh;
+         margin: 0px;
+         overflow-x: scroll;
+        .atb-index-clients-title{
+            margin-left: 5%;
+            height: 10%;
+            h2{
+                font-family: $titulos;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 8vh;
+                color: $color-negro-gris;
+                position: absolute;
+            }
+        }
+        .atb-index-clients-cards-container{
+            height: 55%;
+            width: 320%;
+            padding: 0px 0px;
+            margin-top: 2%;
+            margin-left: 4.5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: "card1 card2 card3 card4";
+            grid-gap: 1rem;
+            .atb-index-cards-1{
+                width: 100%;
+                grid-area: "card1";
+                background-image: url(../multimedia/frame-1.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .atb-index-cards-text-container{
+                    height: 100%;
+                    padding-left: 15%;
+                    padding-bottom: 5%;
+                    opacity: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    background: rgb(48,49,51);
+                    background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
+                    
+                    h3{
+                        font-family: $titulos;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 5vh;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 3vh;
+                        color: white;
+                    }
+
+                }
+            }
+            .atb-index-cards-2{
+                grid-area: "card2";
+                background-image: url(../multimedia/frame-2.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .atb-index-cards-text-container{
+                    height: 100%;
+                    padding-left: 15%;
+                    padding-bottom: 5%;
+                    opacity: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    background: rgb(48,49,51);
+                    background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
+                    h3{
+                        font-family: $titulos;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 5vh;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 3vh;
+                        color: white;
+                    }
+                }
+            }
+            .atb-index-cards-3{
+                grid-area: "card3";
+                background-image: url(../multimedia/frame-3.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .atb-index-cards-text-container{
+                    height: 100%;
+                    padding-left: 15%;
+                    padding-bottom: 5%;
+                    opacity: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    background: rgb(48,49,51);
+                    background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
+                    h3{
+                        font-family: $titulos;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 5vh;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 3vh;
+                        color: white;
+                    }
+                }
+            }
+            .atb-index-cards-4{
+                grid-area: "card4";
+                background-image: url(../multimedia/frame-4.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .atb-index-cards-text-container{
+                    height: 100%;
+                    padding-left: 15%;
+                    padding-bottom: 5%;
+                    opacity: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    background: rgb(48,49,51);
+                    background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
+                    h3{
+                        font-family: $titulos;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 5vh;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 3vh;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .atb-index-clients-carrousel{
+            background-image: url(../multimedia/publis-carrusel.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 320%;
+            height: 180px;
+            margin-top: 5%;
+            margin-left: 4.5%;
+        }
+    }
+    .atb-index-clients-gallery {
+        display: none;
+        .atb-index-clients-gallery-title{
+           
+            h2{
+                
+            }
+        }
+        .atb-index-client-gallery-contain{
+            
+            .atb-index-gallery-colums-1{
+                
+                
+                
+                .atb-index-cliente-1{
+                    
+                    img{
+                        
+                    }
+                    h3{
+                       
+    
+                    }
+                    
+                }
+                .atb-index-cliente-1:hover{
+                   
+                    img{
+                        
+                    }
+                    h3{
+                        
+                        
+                    }
+                }
+    
+    
+                .atb-index-cliente-2{
+                    
+                    
+                    h3{
+                        
+                       
+                    }
+                }
+                .atb-index-cliente-2:hover{
+                    h3{
+                        
+                        
+                    }
+                }
+                .atb-index-cliente-3{
+                   
+                    
+                    h3{
+                       
+                       
+                    }
+                }
+                .atb-index-cliente-3:hover{
+                    h3{
+                        
+                       
+                    }
+                }
+                .atb-index-cliente-4{
+                   
+                    
+                    
+                    h3{
+                       
+                       
+                    }
+                }
+                .atb-index-cliente-4:hover{
+                    h3{
+                        
+                       
+                    }
+                }
+            }
+            .atb-index-gallery-colums-2{
+                
+                
+                .atb-index-cliente-5{
+                   
+                    
+                    
+                    h3{
+                        
+                        
+                    }
+                }
+                .atb-index-cliente-5:hover{
+                    h3{
+                        
+                       
+                    }
+                }
+                .atb-index-cliente-6{
+                   
+                    img{
+                        
+                    }
+                    h3{
+                        
+    
+                    }
+                    
+                }
+                .atb-index-cliente-6:hover{
+                    
+                    
+                    img{
+                        
+                    }
+                    h3{
+                        
+                        
+                    }
+                }
+                .atb-index-cliente-7{
+                    
+                    
+                    
+                    h3{
+                        
+                        
+                    }
+                }
+                .atb-index-cliente-7:hover{
+                    h3{
+                        
+                    }
+                }
+                .atb-index-cliente-8{
+                  
+                    
+                    
+                    h3{
+                        
+                       
+                    }
+                }
+                .atb-index-cliente-8:hover{
+                    h3{
+                        
+                       
+                    }
+                }
+            }
+            .atb-index-gallery-colums-3{
+                
+                
+                .atb-index-cliente-9{
+                   
+                    img{
+                        
+                    }
+                    h3{
+                        
+                    }
+                    
+                }
+                .atb-index-cliente-9:hover{
+                   
+                    img{
+                        
+                    }
+                    h3{
+                        
+                        
+                    }
+                }
+                .atb-index-cliente-10{
+                   
+                    
+                    
+                    h3{
+                        
+                        
+                    }
+                }
+                .atb-index-cliente-10:hover{
+                    h3{
+                        
+                       
+                    }
+                }
+                .atb-index-cliente-11{
+                    
+                    
+                    
+                    h3{
+                        
+                        
+                    }
+                }
+                .atb-index-cliente-11:hover{
+                    h3{
+                        
+                    }
+                }
+                .atb-index-cliente-12{
+                    
+                    img{
+                        
+                    }
+                    h3{
+                        
+                    }
+                    
+                }
+                .atb-index-cliente-12:hover{
+                    
+                    img{
+                        
+                    }
+                    h3{
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        height: 75vh;
+        background-color: $color-negro-oscuro;
+        color: white;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .atb-index-f-contacto{
+            width: 90%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-family: $textos;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 2.5vh;
+                margin-bottom: 15px;
+            }
+            a{
+                font-family: $textos;
+                color: white;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 2.2vh;
+                margin-bottom: 12px;
+            }
+        }
+        .atb-index-f-informacion{
+            width: 90%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-family: $textos;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 2.5vh;
+                margin-bottom: 15px;
+            }
+            a{
+                font-family: $textos;
+                color: white;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 2.2vh;
+                margin-bottom: 12px;
+            }
+        }
+        .atb-index-f-redes{
+            width: 90%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-family: $textos;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 2.5vh;
+                margin-bottom: 15px;
+            }
+            .atb-index-f-redes-icon-contain{
+                width: 300px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                a{
+                    background-color: white;
+                    border-radius: 30px;
+                    .atb-index-f-redes-icon-1{
+                        width: 50px;
+                        height: 50px;
+                        background-image: url(../multimedia/Instagram.png);
+                        background-size: 48px 48px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                a{
+                    .atb-index-f-redes-icon-2{
+                        width: 50px;
+                        height: 50px;
+                        background-image: url(../multimedia/Facebook.png);
+                        background-size: 48px 48px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                a{
+                    .atb-index-f-redes-icon-3{
+                        width: 50px;
+                        height: 50px;
+                        background-image: url(../multimedia/Linkedin.png);
+                        background-size: 48px 48px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                a{
+                    .atb-index-f-redes-icon-4{
+                        width: 50px;
+                        height: 50px;
+                        background-image: url(../multimedia/YouTube.png);
+                        background-size: 48px 48px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                a{
+                    .atb-index-f-redes-icon-5{
+                        width: 50px;
+                        height: 50px;
+                        background-image: url(../multimedia/Pinterest.png);
+                        background-size: 48px 48px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }    
+            }
+        }
+        .atb-index-f-newsLetter{
+            width: 90%;
+            height: 20%;
+            h3{
+                font-family: $textos;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 2.5vh;
+                margin-bottom: 15px;
+            }
+            .atb-index-f-newsLetter-input-contain{
+                width: 100%;
+                height: 40%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                input{
+                    width: 80%;
+                    height: 100%;
+                    background: #E0E0E0;
+                    border-radius: 10px 0px 0px 10px;
+                }
+                button{
+                    width: 20%;
+                    height: 100%;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 2vh;
+                    color: white;
+                    background: #7E7E7E;
+                    border-radius: 0px 10px 10px 0px;
+                }
+            }
+        }
+    }
+}
+
