@@ -18,5 +18,5 @@ $asunto = 'Forlumario de contacto a To Be Digital';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:../pages/contacto.hmtl");
+header("Location:contacto.hmtl");
 ?>
