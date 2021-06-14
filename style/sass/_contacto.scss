@@ -32,80 +32,85 @@
     .contacto-form-container{
         height: 75%;
         width: 30%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        .contacto-form-name{
-            height: 10%;
+        
+        form {
             width: 100%;
+            height: 100%;
             display: flex;
-            flex-wrap: wrap;
-            label{
-                height: 60%;
-                font-family: $textos;
-                font-style: normal;
-                font-weight: 900;
-                font-size: 2vh;
-            }
-            input{
-                height: 80%;
+            flex-direction: column;
+            justify-content: space-between;
+            .contacto-form-name{
+                height: 10%;
                 width: 100%;
-                background-color: $color-verdeagua;
-                border: 1px solid #ACACAC;
-                box-sizing: border-box;
-                border-radius: 9px;
+                display: flex;
+                flex-wrap: wrap;
+                label{
+                    height: 60%;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
+                }
+                input{
+                    height: 80%;
+                    width: 100%;
+                    background-color: $color-verdeagua;
+                    border: 1px solid #ACACAC;
+                    box-sizing: border-box;
+                    border-radius: 9px;
+                }
             }
-        }
-        .contacto-form-email{
-            height: 10%;
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            label{
-                height: 60%;
-                font-family: $textos;
-                font-style: normal;
-                font-weight: 900;
-                font-size: 2vh;
-            }
-            input{
-                height: 80%;
+            .contacto-form-email{
+                height: 10%;
                 width: 100%;
-                background-color: $color-verdeagua;
-                border: 1px solid #ACACAC;
-                box-sizing: border-box;
-                border-radius: 9px;
+                display: flex;
+                flex-wrap: wrap;
+                label{
+                    height: 60%;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
+                }
+                input{
+                    height: 80%;
+                    width: 100%;
+                    background-color: $color-verdeagua;
+                    border: 1px solid #ACACAC;
+                    box-sizing: border-box;
+                    border-radius: 9px;
+                }
             }
-        }
-        .contacto-form-textarea{
-            height: 40%;
-            width: 100%;
-            label{
-                height: 60%;
-                font-family: $textos;
-                font-style: normal;
-                font-weight: 900;
-                font-size: 2vh;
-            }
-            textarea{
-                height: 80%;
+            .contacto-form-textarea{
+                height: 40%;
                 width: 100%;
-                margin-top: 2%;
-                background-color: $color-verdeagua;
-                border: 1px solid #ACACAC;
-                box-sizing: border-box;
-                border-radius: 9px;
+                label{
+                    height: 60%;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
+                }
+                textarea{
+                    height: 80%;
+                    width: 100%;
+                    margin-top: 2%;
+                    background-color: $color-verdeagua;
+                    border: 1px solid #ACACAC;
+                    box-sizing: border-box;
+                    border-radius: 9px;
+                }
             }
-        }
-        .contacto-form-button{
-            height: 10%;
-            width: 100%;
-            width: 9vw;
-            height: 5vh;
-            background-color: $color-negro-gris;
-            border-radius: 50px;
-            transition: 500ms;
-            color: white;
+            .contacto-form-button{
+                height: 10%;
+                width: 100%;
+                width: 9vw;
+                height: 5vh;
+                background-color: $color-negro-gris;
+                border-radius: 50px;
+                transition: 500ms;
+                color: white;
+            }
         }
     }
 }

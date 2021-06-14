@@ -1138,6 +1138,10 @@ header nav ul li:hover {
   text-align: center;
 }
 
+.atb-indexResponsive-clients-gallery {
+  display: none;
+}
+
 footer {
   height: 25vh;
   background-color: #111111;
@@ -1800,6 +1804,480 @@ p {
   }
   .atb-index-clients-gallery {
     display: none;
+  }
+  .atb-indexResponsive-clients-gallery {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-clients-gallery-title {
+    height: 10%;
+    margin-left: 5%;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-clients-gallery-title h2 {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 8vh;
+    color: #303133;
+    position: absolute;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain {
+    height: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container {
+    height: 40%;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 {
+    height: 100%;
+    width: 500%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-1 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-1 img {
+    display: none;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-1 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-2 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-2 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-6 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-6 img {
+    display: none;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-6 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-8 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-8 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-4 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-4 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-11 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-1-container .atb-indexResponsive-gallery-row-1 .atb-indexResponsive-cliente-11 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container {
+    height: 40%;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 {
+    height: 100%;
+    width: 500%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-10 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-10 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-5 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-5 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-3 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-3 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-12 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-12 img {
+    display: none;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-12 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-9 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-9 img {
+    display: none;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-9 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-7 {
+    width: 15%;
+    height: 100%;
+    background-image: url(../multimedia/g-frame-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atb-indexResponsive-clients-gallery .atb-indexResponsive-client-gallery-contain .atb-indexResponsive-gallery-row-2-container .atb-indexResponsive-gallery-row-2 .atb-indexResponsive-cliente-7 h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
   }
   footer {
     height: 75vh;
@@ -3620,6 +4098,11 @@ p {
 .contacto-mainSection .contacto-form-container {
   height: 75%;
   width: 30%;
+}
+
+.contacto-mainSection .contacto-form-container form {
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3632,7 +4115,7 @@ p {
           justify-content: space-between;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-name {
+.contacto-mainSection .contacto-form-container form .contacto-form-name {
   height: 10%;
   width: 100%;
   display: -webkit-box;
@@ -3642,7 +4125,7 @@ p {
       flex-wrap: wrap;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-name label {
+.contacto-mainSection .contacto-form-container form .contacto-form-name label {
   height: 60%;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -3650,7 +4133,7 @@ p {
   font-size: 2vh;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-name input {
+.contacto-mainSection .contacto-form-container form .contacto-form-name input {
   height: 80%;
   width: 100%;
   background-color: #D7D7D7;
@@ -3660,7 +4143,7 @@ p {
   border-radius: 9px;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-email {
+.contacto-mainSection .contacto-form-container form .contacto-form-email {
   height: 10%;
   width: 100%;
   display: -webkit-box;
@@ -3670,7 +4153,7 @@ p {
       flex-wrap: wrap;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-email label {
+.contacto-mainSection .contacto-form-container form .contacto-form-email label {
   height: 60%;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -3678,7 +4161,7 @@ p {
   font-size: 2vh;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-email input {
+.contacto-mainSection .contacto-form-container form .contacto-form-email input {
   height: 80%;
   width: 100%;
   background-color: #D7D7D7;
@@ -3688,12 +4171,12 @@ p {
   border-radius: 9px;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-textarea {
+.contacto-mainSection .contacto-form-container form .contacto-form-textarea {
   height: 40%;
   width: 100%;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-textarea label {
+.contacto-mainSection .contacto-form-container form .contacto-form-textarea label {
   height: 60%;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -3701,7 +4184,7 @@ p {
   font-size: 2vh;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-textarea textarea {
+.contacto-mainSection .contacto-form-container form .contacto-form-textarea textarea {
   height: 80%;
   width: 100%;
   margin-top: 2%;
@@ -3712,7 +4195,7 @@ p {
   border-radius: 9px;
 }
 
-.contacto-mainSection .contacto-form-container .contacto-form-button {
+.contacto-mainSection .contacto-form-container form .contacto-form-button {
   height: 10%;
   width: 100%;
   width: 9vw;
@@ -3771,6 +4254,10 @@ p {
   .contacto-mainSection .contacto-form-container {
     height: 60%;
     width: 80%;
+  }
+  .contacto-mainSection .contacto-form-container form {
+    width: 100%;
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3778,10 +4265,11 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-name {
+  .contacto-mainSection .contacto-form-container form .contacto-form-name {
     height: 10%;
     width: 100%;
     display: -webkit-box;
@@ -3790,14 +4278,14 @@ p {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-name label {
+  .contacto-mainSection .contacto-form-container form .contacto-form-name label {
     height: 60%;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 2vh;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-name input {
+  .contacto-mainSection .contacto-form-container form .contacto-form-name input {
     height: 80%;
     width: 100%;
     background-color: #D7D7D7;
@@ -3806,7 +4294,7 @@ p {
             box-sizing: border-box;
     border-radius: 9px;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-email {
+  .contacto-mainSection .contacto-form-container form .contacto-form-email {
     height: 10%;
     width: 100%;
     display: -webkit-box;
@@ -3815,14 +4303,14 @@ p {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-email label {
+  .contacto-mainSection .contacto-form-container form .contacto-form-email label {
     height: 60%;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 2vh;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-email input {
+  .contacto-mainSection .contacto-form-container form .contacto-form-email input {
     height: 80%;
     width: 100%;
     background-color: #D7D7D7;
@@ -3831,18 +4319,18 @@ p {
             box-sizing: border-box;
     border-radius: 9px;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-textarea {
+  .contacto-mainSection .contacto-form-container form .contacto-form-textarea {
     height: 40%;
     width: 100%;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-textarea label {
+  .contacto-mainSection .contacto-form-container form .contacto-form-textarea label {
     height: 60%;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 2vh;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-textarea textarea {
+  .contacto-mainSection .contacto-form-container form .contacto-form-textarea textarea {
     height: 80%;
     width: 100%;
     margin-top: 2%;
@@ -3852,7 +4340,7 @@ p {
             box-sizing: border-box;
     border-radius: 9px;
   }
-  .contacto-mainSection .contacto-form-container .contacto-form-button {
+  .contacto-mainSection .contacto-form-container form .contacto-form-button {
     width: 100%;
     height: 5vh;
     background-color: #303133;

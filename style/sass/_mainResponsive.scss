@@ -340,230 +340,364 @@ p {
             margin-left: 4.5%;
         }
     }
-    .atb-index-clients-gallery {
+    .atb-index-clients-gallery{
         display: none;
-        .atb-index-clients-gallery-title{
-           
+    }
+    .atb-indexResponsive-clients-gallery {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        .atb-indexResponsive-clients-gallery-title{
+            height: 10%;
+            margin-left: 5%;
             h2{
-                
+                font-family: $titulos;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 8vh;
+                color: $color-negro-gris;
+                position: absolute;
             }
         }
-        .atb-index-client-gallery-contain{
+        .atb-indexResponsive-client-gallery-contain{
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
             
-            .atb-index-gallery-colums-1{
-                
-                
-                
-                .atb-index-cliente-1{
-                    
-                    img{
+            .atb-indexResponsive-gallery-row-1-container{
+                height: 40%;
+                width: 100%;
+                overflow-x: scroll;
+                .atb-indexResponsive-gallery-row-1{
+                    height: 100%;
+                    width: 500%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    .atb-indexResponsive-cliente-1{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-1.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                       
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            display: none;
+                        }
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;
+                        }
                         
                     }
-                    h3{
-                       
+        
+                    .atb-indexResponsive-cliente-2{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-2.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;                    
+                            opacity: 1;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                    
+                    .atb-indexResponsive-cliente-6{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-6.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        img{
+                            display: none;
+                        }
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;
+                        }
+                        
+                    }
+                    
+                    .atb-indexResponsive-cliente-8{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-8.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;                    
+                            opacity: 1;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                    
+                    .atb-indexResponsive-cliente-4{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-4.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        h3{
+                           
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;                    
+                            opacity: 1;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
     
-                    }
-                    
-                }
-                .atb-index-cliente-1:hover{
-                   
-                    img{
-                        
-                    }
-                    h3{
-                        
-                        
-                    }
-                }
-    
-    
-                .atb-index-cliente-2{
-                    
-                    
-                    h3{
-                        
-                       
-                    }
-                }
-                .atb-index-cliente-2:hover{
-                    h3{
+                    .atb-indexResponsive-cliente-11{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-11.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
                         
                         
-                    }
-                }
-                .atb-index-cliente-3{
-                   
-                    
-                    h3{
-                       
-                       
-                    }
-                }
-                .atb-index-cliente-3:hover{
-                    h3{
-                        
-                       
-                    }
-                }
-                .atb-index-cliente-4{
-                   
-                    
-                    
-                    h3{
-                       
-                       
-                    }
-                }
-                .atb-index-cliente-4:hover{
-                    h3{
-                        
-                       
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;                    
+                            opacity: 1;
+                            transition: all 500ms ease-in-out;
+                        }
                     }
                 }
             }
-            .atb-index-gallery-colums-2{
-                
-                
-                .atb-index-cliente-5{
-                   
-                    
-                    
-                    h3{
-                        
-                        
-                    }
-                }
-                .atb-index-cliente-5:hover{
-                    h3{
-                        
-                       
-                    }
-                }
-                .atb-index-cliente-6{
-                   
-                    img{
-                        
-                    }
-                    h3{
-                        
+            .atb-indexResponsive-gallery-row-2-container{
+                height: 40%;
+                width: 100%;
+                overflow-x: scroll;
+
+                .atb-indexResponsive-gallery-row-2{
+                    height: 100%;
+                    width: 500%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
     
+                    .atb-indexResponsive-cliente-10{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-10.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;                    
+                            opacity: 1;
+                            transition: all 500ms ease-in-out;
+                        }
                     }
                     
-                }
-                .atb-index-cliente-6:hover{
-                    
-                    
-                    img{
+                    .atb-indexResponsive-cliente-5{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-5.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;                    
+                            opacity: 1;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                    .atb-indexResponsive-cliente-3{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-3.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        h3{
+                           
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;                    
+                            opacity: 1;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                    .atb-indexResponsive-cliente-12{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-12.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            display: none;
+                        }
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;
+                        }
                         
                     }
-                    h3{
-                        
+                    
+                    .atb-indexResponsive-cliente-9{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-9.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            display: none;
+                        }
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 6vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;
+                        }
                         
                     }
-                }
-                .atb-index-cliente-7{
-                    
-                    
-                    
-                    h3{
+    
+                    .atb-indexResponsive-cliente-7{
+                        width: 15%;
+                        height: 100%;
+                        background-image: url(../multimedia/g-frame-7.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
                         
                         
-                    }
-                }
-                .atb-index-cliente-7:hover{
-                    h3{
-                        
-                    }
-                }
-                .atb-index-cliente-8{
-                  
-                    
-                    
-                    h3{
-                        
-                       
-                    }
-                }
-                .atb-index-cliente-8:hover{
-                    h3{
-                        
-                       
-                    }
+                        h3{
+                            
+                            display: flex;
+                            font-family: $textos;
+                            font-size: 4vh;
+                            font-weight: 900;
+                            color: white;
+                            text-align: center;                    
+                            opacity: 1;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }   
                 }
             }
-            .atb-index-gallery-colums-3{
-                
-                
-                .atb-index-cliente-9{
-                   
-                    img{
-                        
-                    }
-                    h3{
-                        
-                    }
-                    
-                }
-                .atb-index-cliente-9:hover{
-                   
-                    img{
-                        
-                    }
-                    h3{
-                        
-                        
-                    }
-                }
-                .atb-index-cliente-10{
-                   
-                    
-                    
-                    h3{
-                        
-                        
-                    }
-                }
-                .atb-index-cliente-10:hover{
-                    h3{
-                        
-                       
-                    }
-                }
-                .atb-index-cliente-11{
-                    
-                    
-                    
-                    h3{
-                        
-                        
-                    }
-                }
-                .atb-index-cliente-11:hover{
-                    h3{
-                        
-                    }
-                }
-                .atb-index-cliente-12{
-                    
-                    img{
-                        
-                    }
-                    h3{
-                        
-                    }
-                    
-                }
-                .atb-index-cliente-12:hover{
-                    
-                    img{
-                        
-                    }
-                    h3{
-                        
-                        
-                    }
-                }
-            }
+            
         }
     }
     footer {
