@@ -15,18 +15,27 @@
 </head>
 <body>
     <header class="">
-        <a href="../index.html">
-            <div class="">
-                <h1>A TO BE<br>DIGITAL</h1>
+        <div class="headerContainer">
+            <a href="../index.html">
+                <div class="">
+                    <h1>A TO BE<br>DIGITAL</h1>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <ul>
+                    <li>
+                        <a href="./contacto.html" >Contacto</a>
+                    </li>
+                    <li><a href="./mediaKit.html" >Media Kit</a></li>
+                    <li><a href="./portfolio.html" >Portfolio</a></li> 
+                </ul>
+            </nav>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-        </a>
-        <nav>
-            <ul>
-               <li><a href="./contacto.html">Contacto</a></li>
-               <li><a href="./mediaKit.html">Media Kit</a></li>
-               <li><a href="./portfolio.html">Portfolio</a></li> 
-            </ul>
-        </nav>
+        </div>
     </header>
     <section class="contacto-mainSection">
         <div class="contacto-text-container">
@@ -37,18 +46,18 @@
         <div class="contacto-form-container">
             <form action="send.php" method="POST">
                 <div class="contacto-form-name">
-                    <label for="name">Nombre</label>
-                    <input type="text" name="name" class="contact__name" placeholder="">
+                    <label for="nombreCliente">Nombre</label>
+                    <input type="text" name="nombreCliente"  placeholder="">
                 </div>
                 <div class="contacto-form-email">
-                    <label for="email">Correo Electronico</label>
-                    <input type="email" name="email" class="contact__email" placeholder="">
+                    <label for="emailCliente">Correo Electronico</label>
+                    <input type="email" name="emailCliente"  placeholder="">
                 </div>
                 <div class="contacto-form-textarea">
-                    <label for="message">Mensaje</label>
-                    <textarea name="message" class="contacto-form-textarea" placeholder=""></textarea>
+                    <label for="msjCliente">Mensaje</label>
+                    <textarea name="msjCliente"  placeholder=""></textarea>
                 </div>
-                <button type="submit" class="contacto-form-button">Enviar</button>
+                <input type="submit" class="contacto-form-button" value="Enviar">
             </form>
         </div>
     </section>
@@ -59,26 +68,23 @@
             <a href="">+54 9 11 6424-1853</a>
         </div>
         <div class="atb-index-f-informacion">
-            <h3>INFORMACION</h3>
+            <h3>INFORMACIÓN</h3>
             <a href="">Clientes</a>
             <a href="">Media Kit</a>
         </div>
         <div class="atb-index-f-redes">
             <h3>SEGUINOS</h3>
             <div class="atb-index-f-redes-icon-contain">
-                <a href="">
+                <a href="https://www.instagram.com/atobedigital/">
                     <div class="atb-index-f-redes-icon-1"></div>
                 </a>
-                <a href="">
+                <a href="https://www.facebook.com/atobedigital/">
                     <div class="atb-index-f-redes-icon-2"></div>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/company/atobedigital/">
                     <div class="atb-index-f-redes-icon-3"></div>
                 </a>
-                <a href="">
-                    <div class="atb-index-f-redes-icon-4"></div>
-                </a>
-                <a href="">
+                <a href="https://ar.pinterest.com/atobedigital">
                     <div class="atb-index-f-redes-icon-5"></div>
                 </a>
             </div>
@@ -86,9 +92,26 @@
         <div class="atb-index-f-newsLetter">
             <h3>SUSCRIBITE A NUESTRO NEWS LETTER</h3>
             <div class="atb-index-f-newsLetter-input-contain">
-                <input type="text" placeholder="Correo electrónico"><button>ENVIAR</button>
+                <input type="text" placeholder="Correo electrónico"><button onclick="newsLetter()">ENVIAR</button>
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+    
+            $(window).load(function() {
+                $(".cargando").fadeOut(1000);
+            });
+    
+    //Ocultar mensaje
+        setTimeout(function () {
+            $("#msj").fadeOut(1000);
+        }, 7000);
+    
+    });
+    </script>
+    <script src="../script/app.js"></script>
+
 </body>
 </html>

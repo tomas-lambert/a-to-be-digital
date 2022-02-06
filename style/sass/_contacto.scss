@@ -54,10 +54,15 @@
                 input{
                     height: 80%;
                     width: 100%;
+                    padding-left: 10px;
                     background-color: $color-verdeagua;
                     border: 1px solid #ACACAC;
                     box-sizing: border-box;
                     border-radius: 9px;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
                 }
             }
             .contacto-form-email{
@@ -75,10 +80,15 @@
                 input{
                     height: 80%;
                     width: 100%;
+                    padding-left: 10px;
                     background-color: $color-verdeagua;
                     border: 1px solid #ACACAC;
                     box-sizing: border-box;
                     border-radius: 9px;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
                 }
             }
             .contacto-form-textarea{
@@ -95,10 +105,15 @@
                     height: 80%;
                     width: 100%;
                     margin-top: 2%;
+                    padding: 10px;
                     background-color: $color-verdeagua;
                     border: 1px solid #ACACAC;
                     box-sizing: border-box;
                     border-radius: 9px;
+                    font-family: $textos;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 2vh;
                 }
             }
             .contacto-form-button{

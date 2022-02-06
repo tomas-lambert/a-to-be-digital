@@ -15,68 +15,76 @@ p {
     margin: 0px;
     padding: 0px;
 }
+
+
 // Nav Bar
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     height: 15vh;
     padding: 0px 100px;
-    overflow: hidden;
-    div{
-        background-image: url(../multimedia/a-to-be-logo.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        h1{
-            width: 200px;
-            margin: 0px 50px;
-            font-family: Druk Text Wide;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 37px;
-            color: #000000;
-            visibility: hidden;
+    .headerContainer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+        div{
+            background-image: url(../multimedia/a-to-be-logo.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            h1{
+                width: 200px;
+                margin: 0px 50px;
+                font-family: Druk Text Wide;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 37px;
+                color: #000000;
+                visibility: hidden;
+            }
         }
-    }
-    nav{
-        width: 500px;
-        height: 30px;
-        ul{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            list-style-type: none;
-            margin: 0px;
-            padding: 0px;
-            li{
-                width: 115px;
-                height: 25px;
-                text-align: center;
-                border-radius: 30px;
-                transition: 500ms;
-                
-                a{
-                    font-family: $titulos;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    color: $color-negro-oscuro;
-                    transition: 500ms;
+        nav{
+            width: 500px;
+            height: 30px;
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+                li{
+                    width: 115px;
+                    height: 25px;
+                    text-align: center;
+                    transition: 100ms;
+                    
+                    a{
+                        font-family: $titulos;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: $color-negro-oscuro;
+                        transition: 100ms;
+
+                    }
+                    a:hover{
+                        border-bottom: 3px solid $color-negro-gris;
+                        
+                    }
                 }
             }
-            a:hover{
-                color: white;
-            }
-            li:hover{
-                background-color: $color-negro-gris;
-                
-            }
+        }
+        .burger{
+            display: none;
         }
     }
 }
+
+
 .atb-index-banner{
     height: 75vh;
     overflow: hidden;
@@ -129,7 +137,7 @@ header {
                 font-family: $textos;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 2vh;
+                font-size: 2.8vh;
                 margin: 15px 0px;
                 color: $color-negro-gris;
             }
@@ -190,37 +198,42 @@ header {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            .atb-index-cards-text-container{
+            .atb-index-cards-1-enlace{
                 height: 100%;
-                padding-left: 25px;
+                width: 100%;
                 padding-bottom: 30px;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                opacity: 0;
-                transition: all 500ms ease-in-out;
-                background: rgb(48,49,51);
-                background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
-                
-                h3{
-                    font-family: $titulos;
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 6vh;
-                    text-transform: uppercase;
-                    color: white;
+                .atb-index-cards-text-container{
+                    height: 100%;
+                    padding-left: 25px;
+                    padding-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    opacity: 0;
+                    transition: all 500ms ease-in-out;
+                    background: rgb(48,49,51);
+                    background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
+                    
+                    h3{
+                        font-family: $titulos;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 6vh;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: white;
+                    }
+    
                 }
-                p{
-                    font-family: $textos;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    color: white;
+                .atb-index-cards-text-container:hover{
+                    opacity: 1;
                 }
-
-            }
-            .atb-index-cards-text-container:hover{
-                opacity: 1;
             }
         }
         .atb-index-cards-2{
@@ -232,37 +245,42 @@ header {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            .atb-index-cards-text-container{
+            .atb-index-cards-2-enlace{
                 height: 100%;
-                padding-left: 25px;
+                width: 100%;
                 padding-bottom: 30px;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                opacity: 0;
-                transition: all 500ms ease-in-out;
-                background: rgb(48,49,51);
-                background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
-                h3{
-                    // width: 345px;
-                    // height: 118px;
-                    font-family: $titulos;
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 6vh;
-                    text-transform: uppercase;
-                    color: white;
+                .atb-index-cards-text-container{
+                    height: 100%;
+                    padding-left: 25px;
+                    padding-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    opacity: 0;
+                    transition: all 500ms ease-in-out;
+                    background: rgb(48,49,51);
+                    background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
+                    h3{
+                        // width: 345px;
+                        // height: 118px;
+                        font-family: $titulos;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 6vh;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: white;
+                    }
                 }
-                p{
-                    font-family: $textos;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    color: white;
+                .atb-index-cards-text-container:hover{
+                    opacity: 1;
                 }
-            }
-            .atb-index-cards-text-container:hover{
-                opacity: 1;
             }
         }
         .atb-index-cards-3{
@@ -274,35 +292,40 @@ header {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            .atb-index-cards-text-container{
+            .atb-index-cards-3-enlace{
                 height: 100%;
-                padding-left: 25px;
+                width: 100%;
                 padding-bottom: 30px;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                opacity: 0;
-                transition: all 500ms ease-in-out;
-                background: rgb(48,49,51);
-                background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
-                h3{
-                    font-family: $titulos;
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 6vh;
-                    text-transform: uppercase;
-                    color: white;
+                .atb-index-cards-text-container{
+                    height: 100%;
+                    padding-left: 25px;
+                    padding-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    opacity: 0;
+                    transition: all 500ms ease-in-out;
+                    background: rgb(48,49,51);
+                    background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
+                    h3{
+                        font-family: $titulos;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 6vh;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: white;
+                    }
                 }
-                p{
-                    font-family: $textos;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    color: white;
+                .atb-index-cards-text-container:hover{
+                    opacity: 1;
                 }
-            }
-            .atb-index-cards-text-container:hover{
-                opacity: 1;
             }
         }
         .atb-index-cards-4{
@@ -314,35 +337,40 @@ header {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            .atb-index-cards-text-container{
+            .atb-index-cards-4-enlace{
                 height: 100%;
-                padding-left: 25px;
+                width: 100%;
                 padding-bottom: 30px;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                opacity: 0;
-                transition: all 500ms ease-in-out;
-                background: rgb(48,49,51);
-                background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
-                h3{
-                    font-family: $titulos;
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 6vh;
-                    text-transform: uppercase;
-                    color: white;
+                .atb-index-cards-text-container{
+                    height: 100%;
+                    padding-left: 25px;
+                    padding-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    opacity: 0;
+                    transition: all 500ms ease-in-out;
+                    background: rgb(48,49,51);
+                    background: linear-gradient(0deg, rgba(48,49,51,0.8015581232492998) 20%, rgba(48,49,51,0) 100%);
+                    h3{
+                        font-family: $titulos;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 6vh;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        font-family: $textos;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: white;
+                    }
                 }
-                p{
-                    font-family: $textos;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    color: white;
+                .atb-index-cards-text-container:hover{
+                    opacity: 1;
                 }
-            }
-            .atb-index-cards-text-container:hover{
-                opacity: 1;
             }
         }
     }
@@ -890,7 +918,7 @@ footer {
             margin-bottom: 15px;
         }
         .atb-index-f-redes-icon-contain{
-            width: 300px;
+            width: 250px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -950,6 +978,7 @@ footer {
         }
     }
     .atb-index-f-newsLetter{
+        display: none;
         height: 100%;
         width: 30%;
         h3{
@@ -968,14 +997,20 @@ footer {
             input{
                 width: 80%;
                 height: 100%;
+                padding-left: 10px;
                 background: #E0E0E0;
                 border-radius: 10px 0px 0px 10px;
+                font-family: $textos;
+                font-size: 2.5vh;
+                letter-spacing: 3px;
+                font-weight: 500;
             }
             input::placeholder{
                 font-family: $textos;
                 font-size: 2.5vh;
                 letter-spacing: 3px;
                 font-weight: 500;
+                
             }
             button{
                 width: 20%;

@@ -16,18 +16,27 @@
 </head>
 <body>
     <header class="">
-        <a href="./index.html">
-            <div class="">
-                <h1>A TO BE<br>DIGITAL</h1>
+        <div class="headerContainer">
+            <a href="./index.html">
+                <div class="">
+                    <h1>A TO BE<br>DIGITAL</h1>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <ul>
+                    <li>
+                        <a href="./pages/contacto.html" >Contacto</a>
+                    </li>
+                    <li><a href="./pages/mediaKit.html" >Media Kit</a></li>
+                    <li><a href="./pages/portfolio.html" >Portfolio</a></li> 
+                </ul>
+            </nav>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/mediaKit.html">Media Kit</a></li>
-                <li><a href="./pages/portfolio.html">Portfolio</a></li> 
-            </ul>
-        </nav>
+        </div>
     </header>
     <section class="atb-index-banner">
         <div class="atb-index-banner-contain">
@@ -36,11 +45,8 @@
             </div>
             <div class="atb-index-banner-text">
                 <h2><div>¡</div>HOLA!</h2>
-                <h3>SOMOS CREADORES DE CONTENIDOS.</h3>
-                <p>Diseñar y crear son nuestra destreza, Innovar es nuestra constante.<br> Bienvenidos somos a To Be Digital!</p>
-                <div class="button">
-                    <a>BUTTON TEXT</a>
-                </div>
+                <h3></h3>
+                <p> Somos una agencia de marketing digital enfocados en el manejo de <br> redes sociales & creación de contenido.</p>
             </div>
         </div>
     </section>
@@ -50,28 +56,36 @@
         </div>
         <div class="atb-index-clients-cards-container">
             <div class="atb-index-cards-1">
-                <div class="atb-index-cards-text-container">
-                    <h3>CARO SILVA<br>BÉRTOLO</h3>
-                    <p>Mayorista de Deco.</p>
-                </div>
+                <a href="pages/portfolio.html#portfolio-csb" class="atb-index-cards-1-enlace">
+                    <div class="atb-index-cards-text-container">
+                        <h3>CARO SILVA<br>BÉRTOLO</h3>
+                        <p>Mayorista de Deco.</p>
+                    </div>
+                </a>
             </div>
             <div class="atb-index-cards-2">
-                <div class="atb-index-cards-text-container">
-                    <h3>CALELLO <br> HNOS.</h3>
-                    <p>Importador de Mármoles y granito.</p>
-                </div>
+                <a href="pages/portfolio.html#portfolio-calello" class="atb-index-cards-2-enlace">
+                    <div class="atb-index-cards-text-container">
+                        <h3>CALELLO <br> HNOS.</h3>
+                        <p>Importador de Mármoles y granito.</p>
+                    </div>
+                </a>
             </div>
             <div class="atb-index-cards-3">
-                <div class="atb-index-cards-text-container">
-                    <h3>TRENDY</h3>
-                    <p>Importadora de Moda.</p>
-                </div>
+                <a href="pages/portfolio.html#portfolio-trendy" class="atb-index-cards-3-enlace">
+                    <div class="atb-index-cards-text-container">
+                        <h3>TRENDY</h3>
+                        <p>Importadora de Moda.</p>
+                    </div>
+                </a>
             </div>
             <div class="atb-index-cards-4">
-                <div class="atb-index-cards-text-container">
-                    <h3>ESTUDIO Y<br>MODO CASA</h3>
-                    <p>Diseño de interiores.</p>
-                </div>
+                <a href="pages/portfolio.html#portfolio-eymc" class="atb-index-cards-4-enlace">
+                    <div class="atb-index-cards-text-container">
+                        <h3>ESTUDIO Y<br>MODO CASA</h3>
+                        <p>Diseño de interiores.</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="atb-index-clients-carrousel"></div>
@@ -200,26 +214,23 @@
             <a href="">+54 9 11 6424-1853</a>
         </div>
         <div class="atb-index-f-informacion">
-            <h3>INFORMACION</h3>
+            <h3>INFORMACIÓN</h3>
             <a href="">Clientes</a>
             <a href="">Media Kit</a>
         </div>
         <div class="atb-index-f-redes">
             <h3>SEGUINOS</h3>
             <div class="atb-index-f-redes-icon-contain">
-                <a href="">
+                <a href="https://www.instagram.com/atobedigital/">
                     <div class="atb-index-f-redes-icon-1"></div>
                 </a>
-                <a href="">
+                <a href="https://www.facebook.com/atobedigital/">
                     <div class="atb-index-f-redes-icon-2"></div>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/company/atobedigital/">
                     <div class="atb-index-f-redes-icon-3"></div>
                 </a>
-                <a href="">
-                    <div class="atb-index-f-redes-icon-4"></div>
-                </a>
-                <a href="">
+                <a href="https://ar.pinterest.com/atobedigital">
                     <div class="atb-index-f-redes-icon-5"></div>
                 </a>
             </div>
@@ -227,9 +238,10 @@
         <div class="atb-index-f-newsLetter">
             <h3>SUSCRIBITE A NUESTRO NEWS LETTER</h3>
             <div class="atb-index-f-newsLetter-input-contain">
-                <input type="text" placeholder="Correo electrónico"><button>ENVIAR</button>
+                <input type="text" placeholder="Correo electrónico"><button onclick="newsLetter()">ENVIAR</button>
             </div>
         </div>
     </footer>
+    <script src="script/app.js"></script>
 </body>
 </html>
